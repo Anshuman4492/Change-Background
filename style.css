@@ -1,0 +1,33 @@
+.container {
+    left: 15rem;
+    margin: 5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    background-color: dimgray;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.btn {
+    font-size: 2rem;
+    background: rebeccapurple;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: none;
+}
